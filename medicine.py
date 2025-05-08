@@ -98,8 +98,8 @@ def show():
                 st.success(f"✅ {qr_data.get('Medicine Name', 'Medicine')} scanned and added!")
                 st.snow()
                 cam.release()
-                cv2.destroyAllWindows()
                 stframe.empty()
+
                 scanned = True
                 break
 
