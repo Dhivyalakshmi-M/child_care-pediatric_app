@@ -209,7 +209,7 @@ IN THE SOFTWARE.
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
 📬 Contact
-Created by [Your Name] – feel free to reach out via [your email or GitHub profile link].
+Created by [Dhivyalakshmi] – feel free to reach out via [mdhivyalakshmisp@gmail.com].
 
 
 
