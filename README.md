@@ -47,6 +47,19 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 bash
 Copy
 Edit
+## System Packages Required
+
+This app uses `pyzbar` for QR code decoding, which depends on the `zbar` shared library.
+
+If deploying to **Streamlit Cloud**, add the following to a file named `apt-packages.txt`:
+
+libzbar0
+
+perl
+Copy
+Edit
+
+This ensures the app installs the required system package during deployment.
 pip install -r requirements.txt
 4. Run the Application
 bash
