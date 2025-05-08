@@ -105,8 +105,7 @@ def show():
 
         if not scanned:
             cam.release()
-            cv2.destroyAllWindows()
-
+            
     df = load_data()
 
     st.sidebar.header("➕ Add New Medicine")
