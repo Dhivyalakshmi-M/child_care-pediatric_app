@@ -1,4 +1,9 @@
 streamlit
+streamlit
+opencv-python-headless
+numpy
+pillow
+
 pyzbar
 openpyxl
 pandas
