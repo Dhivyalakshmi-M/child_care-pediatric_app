@@ -1,4 +1,5 @@
 streamlit
+pyzbar
 openpyxl
 pandas
 numpy
@@ -9,7 +10,6 @@ streamlit-lottie
 qrcode
 opencv-python
 Pillow
-pyzbar
 python-dateutil
 
 
