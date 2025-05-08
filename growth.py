@@ -7,8 +7,8 @@ from sklearn.metrics import mean_absolute_error
 import plotly.graph_objects as go
 
 # Load WHO data
-who_boys = pd.read_excel('C:/Users/varma/Downloads/hfa-boys-z-who-2007-exp.xlsx')
-who_girls = pd.read_excel('C:/Users/varma/Downloads/hfa-girls-z-who-2007-exp.xlsx')
+who_boys = pd.read_excel('hfa-boys-z-who-2007-exp.xlsx')
+who_girls = pd.read_excel('hfa-girls-z-who-2007-exp.xlsx')
 
 # ------------------ Streamlit UI Config ------------------
 #st.set_page_config(page_title="AI Growth Predictor", page_icon="📈", layout="wide")
