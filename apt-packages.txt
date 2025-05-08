@@ -1,2 +1,2 @@
-libzbar0=0.10-1
+RUN apt-get update && apt-get install -y libzbar0
 
