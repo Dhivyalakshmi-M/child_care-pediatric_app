@@ -1,12 +1,4 @@
-
-
-
-
-
-
-
-
-
+openpyxl
 streamlit
 pandas
 numpy
