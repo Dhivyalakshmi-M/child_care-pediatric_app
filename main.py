@@ -113,7 +113,7 @@ def starter_page():
         # Add some empty space above the GIF to move it down
         st.markdown("<br>" * 2, unsafe_allow_html=True)  # Adds 5 empty lines (adjust as needed)
 
-        gif_data_url = get_base64_image("C:/Users/varma/Downloads/kid-739_256.gif")
+        gif_data_url = get_base64_image("kid-739_256.gif")
         st.markdown(f"""
             <img src="{gif_data_url}" width="300">
         """, unsafe_allow_html=True)
@@ -177,7 +177,7 @@ def dashboard_page():
 
     # Left Column: GIF
     with col1:
-        gif_data_url = get_base64_image("C:/Users/varma/Downloads/campfire-7349_256.gif")
+        gif_data_url = get_base64_image("campfire-7349_256.gif")
         st.markdown(f"<img src='{gif_data_url}' width='300'>", unsafe_allow_html=True)
 
     # Right Column: Buttons with descriptions
