@@ -12,9 +12,6 @@ Pillow
 pyzbar
 python-dateutil
 
-libzbar0
-
-
 
 
 
