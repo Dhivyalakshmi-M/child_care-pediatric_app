@@ -30,6 +30,87 @@ ChildCare+ is a unified pediatric care solution that combines smart algorithms, 
 
 ---
 
+🌿 Project Title: ChildCare+ - AI-Driven Pediatric Health Companion
+✅ Overview:
+ChildCare+ is an integrated, AI-powered web application built with Streamlit for real-time pediatric health management. It helps track child growth, vaccination schedules, emergency responses, mood analysis, and safe medicine reminders — all in one beautiful and interactive app.
+
+🔑 Key Features (Modules):
+1. 📊 AI-Powered Growth Tracker
+Predicts future height based on current age, height, weight, and BMI.
+
+Uses a Random Forest Regressor (ML model) for accurate predictions.
+
+Compares predictions against WHO child growth standards (LMS method).
+
+Provides abnormal growth alerts (undergrowth/overgrowth).
+
+Includes Plotly visualizations like line charts and gauges for clear insights.
+
+📌 Tech used: sklearn, pandas, plotly, numpy, WHO datasets.
+
+2. 💉 Smart Vaccination Scheduler
+Accepts child’s age and medical history to generate a custom vaccination schedule.
+
+Removes contraindicated vaccines (e.g., MMR for egg allergy).
+
+Automatically generates QR-coded immunization cards.
+
+QR codes encode child info + schedule as a verifiable digital card.
+
+📌 Tech used: qrcode, pandas, dateutil, Streamlit sidebar, image download.
+
+3. 💊 Medicine Scanner & Reminder
+Scans medicine info via QR code from image or camera.
+
+Auto-fills and stores data like name, dosage, expiry date, doctor.
+
+Highlights expired/near-expiry medicines with color-coded tables.
+
+Checks for drug interactions from a predefined list.
+
+Allows CSV download of entire inventory.
+
+📌 Tech used: OpenCV, Pillow, QR decoding, csv, medicine inventory, Streamlit upload + camera.
+
+4. 🧠 Mood & Behavior Tracker
+Tracks daily mood with emojis and sentiment analysis (TextBlob).
+
+Collects journal entries, sleep, screen time, and appetite.
+
+Saves daily logs and shows emotion trends with graphs.
+
+Uses Lottie animations to give child-friendly feedback.
+
+📌 Tech used: TextBlob, streamlit-lottie, plotly, sentiment polarity, csv journal logging.
+
+5. 🚨 Emergency Location Alert System
+Simulates SOS alert with fake GPS coordinates.
+
+Shows list of notified hospitals in the nearest city.
+
+Maintains a log of past emergency triggers with date, location.
+
+Uses random location simulation for demonstration.
+
+📌 Tech used: datetime, random, pandas, Streamlit buttons, location simulation.
+
+💻 Technology Stack:
+Frontend & UI: Streamlit + custom CSS styling
+
+Data Handling: Pandas, CSV, JSON
+
+Machine Learning: scikit-learn (RandomForestRegressor)
+
+Visualization: Plotly (charts, gauges)
+
+QR Code Processing: qrcode, OpenCV, pyzbar, Pillow
+
+Sentiment Analysis: TextBlob
+
+Image Processing: OpenCV, PIL
+
+Others: Lottie Animations, Session state, Caching (@st.cache_data, @st.cache_resource)
+
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
